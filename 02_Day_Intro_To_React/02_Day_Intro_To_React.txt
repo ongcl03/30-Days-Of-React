@@ -1,0 +1,93 @@
+Exercises:
+
+What is React?
+- React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. It can create web applications that can update and renders efficiently. It's component based, meaning we build complex UIs from small and reusable pieces.
+
+
+What is a library?
+- A library is a collection of pre-written code that developers can reuse in their progran to perform common tasks. 
+
+
+What is a single page application?
+- A Single Page Application (SPA) is a web application or website that loads a single web page and dynamically updates the content without reloading the page. The goal is to provide a faster and smoother user experience that resembles a native app
+
+
+What is a component ?
+- In programming, a component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface5. In the context of React, components are independent and reusable bits of code that return HTML.
+
+
+What is DOM?
+- The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document and allows programs to manipulate the document’s structure, style, and content.
+
+
+
+What is React Virtual DOM?
+- The Virtual DOM is a concept in React where a virtual representation of the actual DOM is kept in memory and synced with the real DOM through a process called reconciliation. It allows React to update the parts of the application that changed without needing to render the entire page
+
+
+
+What does a web application or a website(composed of) have?
+- Client or Web Browser: The interface through which users interact with the web application.
+- Server: This is where the application resides and processes user requests.
+- Database: Used for storing data related to the application.
+- Frontend: The part of the application users interact with. It’s built using languages like HTML, CSS, and JavaScript.
+- Backend: This part processes user requests and interacts with the database. It’s built using server-side languages like Java, Python, Ruby, etc.
+
+
+
+
+Why did you chose to use react?
+- Flexibility: React is flexible and can be used on a variety of platforms to build quality user interfaces1.
+- Performance: React uses a virtual DOM that optimizes rendering and improves app performance1.
+- Component-Based: React follows a component-based architecture which makes the code more predictable and easier to debug1.
+- Community Support: React has strong community support, regular updates, and a large ecosystem2.
+
+
+What is JSX?
+JSX stands for JavaScript XML. It is a syntax extension for JavaScript, used in the React library to describe what the UI should look like1. By using JSX, developers can write JavaScript code that looks like HTML (or XML), which makes the code easier to understand and write1. JSX is not required to write React applications, but it makes the code more readable and writing it feels like writing HTML1.
+
+
+
+What is Babel? 
+Babel is a JavaScript compiler, a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript that can run in current and older browsers or environments. It allows developers to use the latest features of JavaScript without worrying about compatibility issues.
+
+
+
+What is a transpiler? 
+A transpiler, or source-to-source compiler, is a type of compiler that takes the source code of a program written in one programming language and translates it into another programming language at the same level of abstraction. For example, a transpiler can convert C++ code to C code, or Python code to Ruby code. Transpilers are useful when there is a need to port a program to another language without rewriting it from scratch.
+
+
+
+Write your name in a JSX element and store it in a name variable
+const name = <h1>CL</h1>
+
+
+Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable.
+
+
+const myInfo = (
+  <div>
+    <h1>CL</h1>
+    <p>Malaysia</p>
+    <p>Computer Science Student</p>
+    <p>Male</p>
+    <p>ongchangle03@gmail.com</p>
+    <p>012-3456789</p>
+  <div>
+)
+
+
+
+Write a footer JSX element 
+
+const footer = (
+  <footer>
+    <p>2023 @CL<p>
+  </footer>
+)
+
+
+
+
+
+
