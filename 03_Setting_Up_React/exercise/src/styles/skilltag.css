@@ -1,0 +1,7 @@
+.tag-container {
+  background-color: rgba(40, 209, 207, 255);
+  width: fit-content;
+  padding: 2px 7px 4px 7px;
+  border-radius: 6px;
+  color: white;
+}

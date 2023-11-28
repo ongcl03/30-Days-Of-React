@@ -3,6 +3,7 @@ import htmlLogo from "./images/Html.svg";
 import cssLogo from "./images/CSS.svg";
 import jsLogo from "./images/Javascript.svg";
 import { Subscribe } from "./Components/Subscribe";
+import { UserCard } from "./Components/UserCard/UserCard";
 
 import "./App.css";
 
@@ -17,9 +18,8 @@ function App() {
         <img className="logo" src={reactLogo} />
       </div>
 
-      <div>
-        <Subscribe />
-      </div>
+      <Subscribe />
+      <UserCard />
     </div>
   );
 }
