@@ -1,0 +1,44 @@
+.subscribe-container {
+  background-color: rgba(194, 230, 244, 255);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 2.3rem;
+  border-radius: 8px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.signup-text {
+  margin-top: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.input {
+  max-width: 15%;
+  width: 9rem;
+  padding: 0.78rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.subscribe-button {
+  background-color: rgba(242, 116, 117, 255);
+  border: none;
+  color: white;
+  width: 23%;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+}

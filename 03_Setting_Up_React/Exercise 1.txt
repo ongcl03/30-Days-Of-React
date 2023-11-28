@@ -1,0 +1,18 @@
+What is a module? 
+- In React (and in JavaScript in general), a module is a file containing JavaScript code. This code can define functions, objects, or values. The module can export these definitions, making them available to other modules. For example, each React component you define in a separate file is a module.
+
+
+What is a package?
+- A package is a collection of modules grouped together in a way that they can be easily managed. Packages can be downloaded and installed using a package manager like npm or yarn. In the context of React, a package could be a library like react-router-dom or redux that you can install and import into your project.
+
+
+What is the difference between a module and a package? 
+- The main difference between a module and a package is that a module is a single file that contains a block of code that can be used in other parts of the application, while a package is a directory that contains multiple modules along with a package.json file that contains metadata about the package.
+
+
+What is NPM? 
+- NPM (Node Package Manager) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. In the context of React, npm is often used to install React and other packages that your project depends on.
+
+
+What is Webpack? 
+- Webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more “bundles”. In the context of React, webpack can be used to bundle your React application’s code and assets into static files for deployment.
