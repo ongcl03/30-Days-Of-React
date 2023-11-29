@@ -1,0 +1,121 @@
+Regular functions vs Arrow functions:
+
+- Regular functions are useful when you need to set the this keyword explicitly or use the arguments keyword or the new keyword, while arrow functions are useful when you want the this keyword to reference the surrounding scope, or when you want to use a more concise syntax.
+
+- Regular functions are constructible; they can be called using the new keyword. However, arrow functions are only callable and not constructible, i.e., arrow functions can never be used as constructor functions.
+
+
+
+
+React Component:
+
+- A React Component is a reusable, nestable piece of code that returns a React element (JSX)4.
+Components let you split the UI into independent, reusable pieces, and think about each piece in isolation5.
+Creating a React functional component:
+
+
+
+
+A functional component is a JavaScript/ES6 function that returns a React element (JSX)5.
+- You can create a functional component in React by writing a JavaScript function. These functions may or may not receive data as parameters6.
+Here’s an example of a functional component:
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+You can also create a functional component with the arrow function8:
+const Welcome = (props) => {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+
+
+
+
+Pure JavaScript function vs Functional component:
+
+- A function can be designed to be used as a component, but not every function returning JSX is necessarily (meant to be) a component10.
+React does not decide which function to use as a component, you explicitly use it as a component (like <FunctionName />) and then react renders it10.
+A React component is said to be pure if it renders the same output for the same state and props.
+
+- JS functions are particular to do a thing, while React functional components are used to define components in React that can be rendered to the UI.
+Size of a React component:
+
+
+
+The size of a component is determined by the height and width of the container.
+- It can be determined if we assign a ref to that component16.
+The general way to set the dimensions of a component is by adding a fixed width and height to style.
+
+- You can specify the size of a React Component by passing width and height as props and applying them to the component’s style.
+Creating a button or input field component:
+
+
+
+
+
+Yes, you can create a button or input field component in React.
+- You can create a reusable button component by defining a function that returns a button element with specific props.
+Similarly, you can create a reusable input field component by defining a function that returns an input element with specific props.
+
+
+
+
+
+
+
+Creating a reusable Button component:
+
+Here’s an example of how to create a reusable button component in React:
+
+
+import React from "react";
+function Button(props) {
+  return <button onClick={props.click}>{props.name}</button>;
+}
+export default Button;
+
+You can use this button component by passing the click function and name props.
+
+
+
+
+
+
+
+Creating a reusable InputField component:
+
+Here’s an example of how to create a reusable input field component in React:
+
+
+import React from "react";
+function InputField(props) {
+  return <input type={props.type} value={props.value} placeholder={props.placeholder} onChange={props.onChange} />;
+}
+export default InputField;
+
+You can use this input field component by passing the type, value, placeholder, and onChange props.
+
+
+
+
+
+
+Creating a reusable alert box component:
+
+Here’s an example of how to create a reusable alert box component in React:
+
+
+import React from "react";
+function AlertBox(props) {
+  return (
+    <div className={props.type}>
+      <p>{props.message}</p>
+    </div>
+  );
+}
+export default AlertBox;
+
+You can use this alert box component by passing the type and message props.
+The type prop can be used to apply different styles for warning and success alert boxes
