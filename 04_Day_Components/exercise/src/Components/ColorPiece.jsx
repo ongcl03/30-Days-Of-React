@@ -4,6 +4,7 @@ export const ColorPiece = (props) => {
       style={{
         backgroundColor: props.color,
         padding: "1rem",
+        color: "white",
       }}
     >
       {props.color}
