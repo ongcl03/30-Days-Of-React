@@ -1,5 +1,4 @@
 import "../../styles/blocks.css";
-import { Block } from "./Block";
 import { isPrimeNumber } from "../../util/primeNumberChecker";
 
 export const Blocks = () => {
@@ -17,7 +16,16 @@ export const Blocks = () => {
             number % 2 === 0 ? "rgba(33,191,115,255)" : "rgba(253,219,59,255)";
         }
 
-        return <Block number={number} color={color} />;
+        return (
+          <div
+            className="block"
+            style={{
+              backgroundColor: color,
+            }}
+          >
+            {number}
+          </div>
+        );
       })}
     </div>
   );
