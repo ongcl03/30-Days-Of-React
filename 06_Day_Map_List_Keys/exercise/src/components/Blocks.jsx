@@ -1,6 +1,6 @@
-import "../../styles/blocks.css";
-import { isPrimeNumber } from "../../util/primeNumberChecker";
-import { generateHexaColorList } from "../../util/generateHexColor";
+import "../styles/blocks.css";
+import { isPrimeNumber } from "../util/primeNumberChecker";
+import { generateHexaColorList } from "../util/generateHexColor";
 
 export const Blocks = (props) => {
   let contentList = [];

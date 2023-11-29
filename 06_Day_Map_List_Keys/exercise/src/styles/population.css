@@ -1,0 +1,45 @@
+.population-container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.1rem;
+}
+
+.stats-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  column-gap: 2rem;
+}
+
+.country {
+  width: 12rem;
+  font-size: 1.15rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.771);
+  text-align: start;
+}
+
+.bar {
+  background-color: rgba(254, 165, 0, 255);
+  height: 2rem;
+  border-radius: 3px;
+}
+
+.population {
+  margin: 0;
+  font-size: 1.15rem;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 3000px;
+  height: 3300px;
 }
 
 .title {
@@ -15,6 +15,13 @@
   font-weight: 100;
 }
 
+.small-title {
+  font-size: 0.82rem;
+  margin-top: 2.3rem;
+  font-weight: 300;
+}
+
 .hex {
   margin-top: 300px;
+  margin-bottom: 300px;
 }
