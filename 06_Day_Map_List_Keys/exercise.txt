@@ -1,0 +1,21 @@
+Why you need to map an array ?
+- The map() method in JavaScript creates an array by calling a specific function on each item in the parent array. It is a non-mutating method that creates a new array, as opposed to mutating methods, which only make changes to the calling array. This method can have many uses when working with arrays, such as calling a function on array elements, converting strings to arrays, rendering lists in JavaScript libraries, and reformatting array objects.
+
+
+
+Why we need keys during mapping an array ?
+- Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside an array to give the elements a stable identity. This is particularly important in React when creating lists of elements, as it allows React to optimize re-rendering by only updating the changed elements.
+
+
+
+What is the importance of destructuring your code ?
+- Destructuring in JavaScript is a powerful feature that lets you extract values from data structures like arrays and objects. It can be used to make your code more readable and concise. Destructuring allows you to extract values from arrays and objects and assign them to variables with a single line of code, which not only simplifies the code but also improves its readability and maintainability.
+
+
+
+Does destructuring make your code clean and easy to read ?
+- Yes, destructuring can make your code cleaner and easier to read. By explicitly declaring which properties or elements you are interested in, destructuring can improve the readability of your code. It can also help to prevent errors while accessing properties or elements that don’t exist. Furthermore, destructuring can make your code not only cleaner but also more expressive.
+
+
+
+
