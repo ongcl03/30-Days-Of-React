@@ -1,0 +1,31 @@
+What is props in a React component ?
+- Props in React are inputs that you pass into components. The props enable the component to access customized data, values, and pieces of information that the inputs hold. The term ‘props’ is an abbreviation for ‘properties’ which refers to the properties of an object1
+
+
+
+
+How do you access props in a React component ?
+- You can access props in a React component by passing them as attributes to the component when it’s used, and then using them inside the component like you would with a variable. For example:
+
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+
+
+What data types can we pass as props to components ?
+- You can pass any JavaScript data type as props to components, including strings, numbers, objects, arrays, functions, and more
+
+
+
+
+What is a propTypes?
+- PropTypes is a runtime type-checking tool for props in React applications. With PropTypes, you can define the types of props expected in a component, like stating whether props are required or optional
+
+
+
+
+What is a default propTypes?
+- Default props in React are used to define default values for your props. If a value isn’t provided for a prop when a component is invoked, it will use the default value defined in defaultProps
+
