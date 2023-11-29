@@ -10,4 +10,4 @@ Exercise 1, 2 and 3 are same as the Day 3 exercises.
 
 Random Color Block Generator
 
-![Exercise 4](https://raw.githubusercontent.com/ongcl03/30-Days-Of-React/04_Day_Components/04_Day_Components/04_Day_Demo.png?token=GHSAT0AAAAAACKBI7CMN27OJVYSLT66CSXMZLGWSBA)
+![Exercise 4](https://raw.githubusercontent.com/ongcl03/30-Days-Of-React/04_Day_Components/04_Day_Components/04_Day_Demo.png)
