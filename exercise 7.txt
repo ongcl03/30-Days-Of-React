@@ -1,0 +1,49 @@
+How do you write a pure JavaScript function?
+- A pure JavaScript function is a function that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program’s execution, but only on its input arguments
+
+
+
+What is inheritance and how do you make a child from a parent class?
+- Inheritance in JavaScript is a concept where a class shares the properties and methods of another class. Inheritance is implemented using the extends keyword. A class created with class inheritance inherits all the methods from another class
+
+
+
+What is class based React component ?
+- A class-based React component is a more complex structure. It is an instance of a class derived from React.Component class. The class must implement a render() member function which returns a React component to be rendered
+
+
+
+What is the difference between functional React component and class based React component ?
+- The main difference between functional and class-based React components is that functional components are simple JavaScript functions that return JSX, while class components are ES6 classes that extend React.Component and have a render() method. Functional components are stateless and mainly used for rendering UI, while class components can have state and lifecycle methods.
+
+
+
+When do we need to use class based components instead of functional components?
+- Class-based components are typically used when you need to manage state or use lifecycle methods in your component. They are also used when you need to load content asynchronously after the component has mounted to the DOM.
+
+
+
+
+What is the use cases of class based component ?
+- Class components are often used as container components to handle state management and wrap child components. They are also used when you need to store state in your component or perform more complex operations.
+
+
+
+
+
+Which type of component do use most frequently ? functional or class-based component
+- As of 2019, functional components are used more frequently than class-based components in React. This is because functional components encourage composition and are simpler to use, especially with the introduction of Hooks which allow state and lifecycle features to be used inside functional components7
+
+
+
+
+What is React life cycle ?
+- The React life cycle is a series of methods that are invoked in different stages of a component’s existence. It consists of three main phases: the Mounting Phase, the Updating Phase, and the Unmounting Phase. Each phase has a set of lifecycle methods that are called at specific points in the component’s lifecycle
+
+
+
+
+
+
+What is state in React ?
+- State in React is an instance of a React Component Class that can be defined as an object of a set of observable properties that control the behavior of the component. The state in a component can change over time, and the change in state over time can happen as a response to user action or system event
