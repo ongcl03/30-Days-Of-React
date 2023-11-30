@@ -3,6 +3,7 @@ import { Title } from "./components/Title";
 import { Profile } from "./components/Profile";
 import { useState } from "react";
 import { Footer } from "./components/Footer";
+import { Country } from "./components/Country";
 
 function App() {
   // see https://react.dev/learn/sharing-state-between-components
@@ -40,9 +41,17 @@ function App() {
 
   return (
     <div className="App">
-      <Title themeColor={themeColor} toggleTheme={toggleTheme} />
-      <Profile themeColor={themeColor} toggleTheme={toggleTheme} />
-      <Footer themeColor={themeColor} toggleTheme={toggleTheme} />
+      <div className="exercise2">
+        <Title themeColor={themeColor} toggleTheme={toggleTheme} />
+        <Profile themeColor={themeColor} toggleTheme={toggleTheme} />
+        <Footer themeColor={themeColor} toggleTheme={toggleTheme} />
+      </div>
+
+      <div className="exercise3" style={{ marginTop: "40rem" }}>
+        <Title themeColor={themeColor} toggleTheme={toggleTheme} />
+        <Country />
+        <Footer themeColor={themeColor} toggleTheme={toggleTheme} />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,30 @@
+.country {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.country-container {
+  width: 40%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 1.8rem 1rem;
+}
+
+.flag {
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.country-name {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.country-info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+  font-size: 1.75rem;
+  margin-bottom: 0.6rem;
+}
