@@ -1,0 +1,35 @@
+.title-container {
+  background-color: rgba(124, 172, 248, 0.8);
+  text-align: start;
+  padding: 1rem 9%;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.getting-started {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.js-library {
+  font-size: 1.38rem;
+  margin-bottom: 0.3rem;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.08rem;
+  margin-bottom: 0.3rem;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 1.08rem;
+  margin-bottom: 0.8rem;
+}

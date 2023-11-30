@@ -1,0 +1,35 @@
+What is state in React ?
+- The state in React is an instance of a React Component Class that can be defined as an object of a set of observable properties that control the behavior of the component. The state is an updatable structure that is used to contain data or information about the component and can change over time
+
+
+What is the difference between props and state in React ?
+- In React JS, the main difference between props and state is that the props are a way to pass the data or properties from one component to other components while the state is the real-time data available to use within that only component. Props are read-only components, which are used to transport data from one component to another but the data only from parent to child components. On the other hand, state describes a default data value in a React component that can change over time, this is usually based off a user’s actions that call for changes in the user’s interface6
+
+
+
+How do you access state in a React component ?
+- You can access state in a React component by referring to the context state as this.state.propertyname. For example, to access the count in the state, you would use this.state.count.
+
+
+
+
+
+How do you set a set in a React component ?
+- To change a value in the state object, use the this.setState() method. When a value in the state object changes, the component will re-render, meaning that the output will change according to the new value(s). The setState() method accepts an object that eventually merges into the component’s existing state.
+
+
+
+
+
+
+Can you explain the lifecycle of a React component ?
+
+Every React component goes through the same lifecycle:
+
+- A component mounts when it’s added to the screen.
+- A component updates when it receives new props or state, usually in response to an interaction.
+- A component unmounts when it’s removed from the screen.
+
+
+
+
